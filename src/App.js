@@ -10,7 +10,6 @@ class App extends Component {
   }
 
   Handle = (digit) => {
-    debugger
     const { count } = this.state
     this.setState({
       count: count ==='0' ? String(digit) : count + digit
